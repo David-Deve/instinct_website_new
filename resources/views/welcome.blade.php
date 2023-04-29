@@ -9,7 +9,7 @@
         <div class="row m-l-r--8">
             @foreach($news as $new)
             <div class="col-md-3 col-sm-4 col-xs-12 p-l-r-8 m-b-30">
-                <a href="/article/archives/139786">
+                <a href="#">
                     <div class="post-item match-height-box">
                         <div class="image-wrapper">
                             <img src="{{ asset('http://127.0.0.1:8081/storage/images/' . $new->photos) }}" alt="News Photo" class="card-img-top" style="height: 200px; object-fit: cover">
@@ -42,7 +42,7 @@
                     <h2>
                         <span>ព័ត៌មានជាតិ</span>
                     </h2>
-                    <a class="view-more" href="/categories/local"
+                    <a class="view-more" href="#"
                     ><span>ទាំងអស់</span>
                     </a>
                 </div>
@@ -50,7 +50,7 @@
                     <div class="col-xs-12">
                         <div class="row big-box post-item">
                             <div class="col-md-12 col-sm-5 p-r-0">
-                                <a class="post" href="/article/archives/139761">
+                                <a class="post" href="#">
                                     <div class="image-wrapper">
                                         <img
                                             class="image-scale-center card-img-top"
@@ -62,7 +62,7 @@
                                 </a>
                             </div>
                             <div class="col-md-12 col-sm-7">
-                                <a class="post" href="/article/archives/139761">
+                                <a class="post" href="#">
                                     <div class="title">
                                         {{$randomRecord->title}}
                                     </div>
@@ -87,7 +87,7 @@
                     <div class="col-xs-12">
                         <div class="row small-box post-item">
                             <div class="col-md-4 col-sm-5 p-r-0">
-                                <a class="post" href="/article/archives/139461">
+                                <a class="post" href="">
                                     <div class="image-wrapper">
                                         <img
                                             class="image-scale-center"
@@ -99,7 +99,7 @@
                                 </a>
                             </div>
                             <div class="col-md-8 col-sm-7">
-                                <a class="post" href="/article/archives/139461">
+                                <a class="post" href="#">
                                     <div class="title">
                                         {{$get4new->title}}
                                     </div>
@@ -122,7 +122,7 @@
                     </div>
                     @endforeach
                 </div>
-                <a class="btn-more" href="/categories/local"><span>ទាំងអស់</span> </a>
+                <a class="btn-more" href=""><span>ទាំងអស់</span> </a>
             </div>
 
             <div class="col-md-4 match-height-box">
@@ -130,7 +130,7 @@
                     <h2>
                         <span>ព័ត៌មានអន្តរជាតិ</span>
                     </h2>
-                    <a class="view-more" href="/categories/local"
+                    <a class="view-more" href=""
                     ><span>ទាំងអស់</span>
                     </a>
                 </div>
@@ -138,7 +138,7 @@
                     <div class="col-xs-12">
                         <div class="row big-box post-item">
                             <div class="col-md-12 col-sm-5 p-r-0">
-                                <a class="post" href="/article/archives/139761">
+                                <a class="post" href="#">
                                     <div class="image-wrapper">
                                         <img
                                             class="image-scale-center card-img-top"
@@ -150,7 +150,7 @@
                                 </a>
                             </div>
                             <div class="col-md-12 col-sm-7">
-                                <a class="post" href="/article/archives/139761">
+                                <a class="post" href="#">
                                     <div class="title">
                                         {{$randomRecord2->title}}
                                     </div>
@@ -175,7 +175,7 @@
                         <div class="col-xs-12">
                             <div class="row small-box post-item">
                                 <div class="col-md-4 col-sm-5 p-r-0">
-                                    <a class="post" href="/article/archives/139461">
+                                    <a class="post" href="#">
                                         <div class="image-wrapper">
                                             <img
                                                 class="image-scale-center"
@@ -187,7 +187,7 @@
                                     </a>
                                 </div>
                                 <div class="col-md-8 col-sm-7">
-                                    <a class="post" href="/article/archives/139461">
+                                    <a class="post" href="#">
                                         <div class="title">
                                             {{$get4new2->title}}
                                         </div>
@@ -210,7 +210,7 @@
                         </div>
                     @endforeach
                 </div>
-                <a class="btn-more" href="/categories/local"><span>ទាំងអស់</span> </a>
+                <a class="btn-more" href="#"><span>ទាំងអស់</span> </a>
             </div>
 
             <div class="col-md-4 match-height-box">
@@ -218,7 +218,7 @@
                     <h2>
                         <span>សង្គម សិល្បៈ និង កម្សាន្ដ</span>
                     </h2>
-                    <a class="view-more" href="/categories/local"
+                    <a class="view-more" href="#"
                     ><span>ទាំងអស់</span>
                     </a>
                 </div>
@@ -226,21 +226,21 @@
                     <div class="col-xs-12">
                         <div class="row big-box post-item">
                             <div class="col-md-12 col-sm-5 p-r-0">
-                                <a class="post" href="/article/archives/139761">
+                                <a class="post" href="#">
                                     <div class="image-wrapper">
                                         <img
                                             class="image-scale-center card-img-top"
                                             style="height: 200px; object-fit: cover"
-                                            src="{{ asset('http://127.0.0.1:8081/storage/images/' . $randomRecord->photos) }}"
+                                            src="{{ asset('http://127.0.0.1:8081/storage/images/' . $randomRecord3->photos) }}"
                                             alt="Untitled 1 copy"
                                         />
                                     </div>
                                 </a>
                             </div>
                             <div class="col-md-12 col-sm-7">
-                                <a class="post" href="/article/archives/139761">
+                                <a class="post" href="#">
                                     <div class="title">
-                                        {{$randomRecord->title}}
+                                        {{$randomRecord3->title}}
                                     </div>
                                     <div class="post-meta">
                                         <span class="time-ago">
@@ -248,7 +248,7 @@
                                               class="timeago"
                                               datetime="March 30, 2023 19:18"
                                               title="March 30, 2023"
-                                          >{{$randomRecord->created_at}}</time>
+                                          >{{$randomRecord3->created_at}}</time>
                                         </span>
                                         <span class="post-view-count">
 
@@ -259,25 +259,25 @@
                             </div>
                         </div>
                     </div>
-                    @foreach($get4news as $get4new)
+                    @foreach($get4news3 as $get4new3)
                         <div class="col-xs-12">
                             <div class="row small-box post-item">
                                 <div class="col-md-4 col-sm-5 p-r-0">
-                                    <a class="post" href="/article/archives/139461">
+                                    <a class="post" href="#">
                                         <div class="image-wrapper">
                                             <img
                                                 class="image-scale-center"
                                                 style="height: 80px; object-fit: cover"
-                                                src="{{ asset('http://127.0.0.1:8081/storage/images/' . $get4new->photos) }}"
+                                                src="{{ asset('http://127.0.0.1:8081/storage/images/' . $get4new3->photos) }}"
                                                 alt="Untitled 1 recovered recovered recovered"
                                             />
                                         </div>
                                     </a>
                                 </div>
                                 <div class="col-md-8 col-sm-7">
-                                    <a class="post" href="/article/archives/139461">
+                                    <a class="post" href="#">
                                         <div class="title">
-                                            {{$get4new->title}}
+                                            {{$get4new3->title}}
                                         </div>
                                         <div class="post-meta">
                                         <span class="time-ago">
@@ -285,7 +285,7 @@
                                               class="timeago"
                                               datetime="January 08, 2023 15:39"
                                               title="January 08, 2023"
-                                          >{{$get4new->created_at}}</time>
+                                          >{{$get4new3->created_at}}</time>
                                         </span>
                                             <span class="post-view-count">
 
@@ -298,7 +298,7 @@
                         </div>
                     @endforeach
                 </div>
-                <a class="btn-more" href="/categories/local"><span>ទាំងអស់</span> </a>
+                <a class="btn-more" href="#"><span>ទាំងអស់</span> </a>
             </div>
 
             <div class="col-md-4 match-height-box">
@@ -306,7 +306,7 @@
                     <h2>
                         <span>បច្ចេកវិទ្យា</span>
                     </h2>
-                    <a class="view-more" href="/categories/local"
+                    <a class="view-more" href="#"
                     ><span>ទាំងអស់</span>
                     </a>
                 </div>
@@ -314,21 +314,21 @@
                     <div class="col-xs-12">
                         <div class="row big-box post-item">
                             <div class="col-md-12 col-sm-5 p-r-0">
-                                <a class="post" href="/article/archives/139761">
+                                <a class="post" href="#">
                                     <div class="image-wrapper">
                                         <img
                                             class="image-scale-center card-img-top"
                                             style="height: 200px; object-fit: cover"
-                                            src="{{ asset('http://127.0.0.1:8081/storage/images/' . $randomRecord->photos) }}"
+                                            src="{{ asset('http://127.0.0.1:8081/storage/images/' . $randomRecord4->photos) }}"
                                             alt="Untitled 1 copy"
                                         />
                                     </div>
                                 </a>
                             </div>
                             <div class="col-md-12 col-sm-7">
-                                <a class="post" href="/article/archives/139761">
+                                <a class="post" href="#">
                                     <div class="title">
-                                        {{$randomRecord->title}}
+                                        {{$randomRecord4->title}}
                                     </div>
                                     <div class="post-meta">
                                         <span class="time-ago">
@@ -336,7 +336,7 @@
                                               class="timeago"
                                               datetime="March 30, 2023 19:18"
                                               title="March 30, 2023"
-                                          >{{$randomRecord->created_at}}</time>
+                                          >{{$randomRecord4->created_at}}</time>
                                         </span>
                                         <span class="post-view-count">
 
@@ -347,25 +347,25 @@
                             </div>
                         </div>
                     </div>
-                    @foreach($get4news as $get4new)
+                    @foreach($get4news4 as $get4new4)
                         <div class="col-xs-12">
                             <div class="row small-box post-item">
                                 <div class="col-md-4 col-sm-5 p-r-0">
-                                    <a class="post" href="/article/archives/139461">
+                                    <a class="post" href="#">
                                         <div class="image-wrapper">
                                             <img
                                                 class="image-scale-center"
                                                 style="height: 80px; object-fit: cover"
-                                                src="{{ asset('http://127.0.0.1:8081/storage/images/' . $get4new->photos) }}"
+                                                src="{{ asset('http://127.0.0.1:8081/storage/images/' . $get4new4->photos) }}"
                                                 alt="Untitled 1 recovered recovered recovered"
                                             />
                                         </div>
                                     </a>
                                 </div>
                                 <div class="col-md-8 col-sm-7">
-                                    <a class="post" href="/article/archives/139461">
+                                    <a class="post" href="#">
                                         <div class="title">
-                                            {{$get4new->title}}
+                                            {{$get4new4->title}}
                                         </div>
                                         <div class="post-meta">
                                         <span class="time-ago">
@@ -373,7 +373,7 @@
                                               class="timeago"
                                               datetime="January 08, 2023 15:39"
                                               title="January 08, 2023"
-                                          >{{$get4new->created_at}}</time>
+                                          >{{$get4new4->created_at}}</time>
                                         </span>
                                             <span class="post-view-count">
 
@@ -386,7 +386,7 @@
                         </div>
                     @endforeach
                 </div>
-                <a class="btn-more" href="/categories/local"><span>ទាំងអស់</span> </a>
+                <a class="btn-more" href="#"><span>ទាំងអស់</span> </a>
             </div>
 
             <div class="col-md-4 match-height-box">
@@ -394,7 +394,7 @@
                     <h2>
                         <span>ចំណេះដឹង</span>
                     </h2>
-                    <a class="view-more" href="/categories/local"
+                    <a class="view-more" href="#"
                     ><span>ទាំងអស់</span>
                     </a>
                 </div>
@@ -402,21 +402,21 @@
                     <div class="col-xs-12">
                         <div class="row big-box post-item">
                             <div class="col-md-12 col-sm-5 p-r-0">
-                                <a class="post" href="/article/archives/139761">
+                                <a class="post" href="#">
                                     <div class="image-wrapper">
                                         <img
                                             class="image-scale-center card-img-top"
                                             style="height: 200px; object-fit: cover"
-                                            src="{{ asset('http://127.0.0.1:8081/storage/images/' . $randomRecord->photos) }}"
+                                            src="{{ asset('http://127.0.0.1:8081/storage/images/' . $randomRecord5->photos) }}"
                                             alt="Untitled 1 copy"
                                         />
                                     </div>
                                 </a>
                             </div>
                             <div class="col-md-12 col-sm-7">
-                                <a class="post" href="/article/archives/139761">
+                                <a class="post" href="#">
                                     <div class="title">
-                                        {{$randomRecord->title}}
+                                        {{$randomRecord5->title}}
                                     </div>
                                     <div class="post-meta">
                                         <span class="time-ago">
@@ -424,7 +424,7 @@
                                               class="timeago"
                                               datetime="March 30, 2023 19:18"
                                               title="March 30, 2023"
-                                          >{{$randomRecord->created_at}}</time>
+                                          >{{$randomRecord5->created_at}}</time>
                                         </span>
                                         <span class="post-view-count">
 
@@ -435,25 +435,25 @@
                             </div>
                         </div>
                     </div>
-                    @foreach($get4news as $get4new)
+                    @foreach($get4news5 as $get4new5)
                         <div class="col-xs-12">
                             <div class="row small-box post-item">
                                 <div class="col-md-4 col-sm-5 p-r-0">
-                                    <a class="post" href="/article/archives/139461">
+                                    <a class="post" href="#">
                                         <div class="image-wrapper">
                                             <img
                                                 class="image-scale-center"
                                                 style="height: 80px; object-fit: cover"
-                                                src="{{ asset('http://127.0.0.1:8081/storage/images/' . $get4new->photos) }}"
+                                                src="{{ asset('http://127.0.0.1:8081/storage/images/' . $get4new5->photos) }}"
                                                 alt="Untitled 1 recovered recovered recovered"
                                             />
                                         </div>
                                     </a>
                                 </div>
                                 <div class="col-md-8 col-sm-7">
-                                    <a class="post" href="/article/archives/139461">
+                                    <a class="post" href="#">
                                         <div class="title">
-                                            {{$get4new->title}}
+                                            {{$get4new5->title}}
                                         </div>
                                         <div class="post-meta">
                                         <span class="time-ago">
@@ -461,7 +461,7 @@
                                               class="timeago"
                                               datetime="January 08, 2023 15:39"
                                               title="January 08, 2023"
-                                          >{{$get4new->created_at}}</time>
+                                          >{{$get4new5->created_at}}</time>
                                         </span>
                                             <span class="post-view-count">
 
@@ -474,7 +474,7 @@
                         </div>
                     @endforeach
                 </div>
-                <a class="btn-more" href="/categories/local"><span>ទាំងអស់</span> </a>
+                <a class="btn-more" href="#"><span>ទាំងអស់</span> </a>
             </div>
 
             <div class="col-md-4 match-height-box">
@@ -482,7 +482,7 @@
                     <h2>
                         <span>Press Release</span>
                     </h2>
-                    <a class="view-more" href="/categories/local"
+                    <a class="view-more" href="#"
                     ><span>ទាំងអស់</span>
                     </a>
                 </div>
@@ -490,21 +490,21 @@
                     <div class="col-xs-12">
                         <div class="row big-box post-item">
                             <div class="col-md-12 col-sm-5 p-r-0">
-                                <a class="post" href="/article/archives/139761">
+                                <a class="post" href="#">
                                     <div class="image-wrapper">
                                         <img
                                             class="image-scale-center card-img-top"
                                             style="height: 200px; object-fit: cover"
-                                            src="{{ asset('http://127.0.0.1:8081/storage/images/' . $randomRecord->photos) }}"
+                                            src="{{ asset('http://127.0.0.1:8081/storage/images/' . $randomRecord6->photos) }}"
                                             alt="Untitled 1 copy"
                                         />
                                     </div>
                                 </a>
                             </div>
                             <div class="col-md-12 col-sm-7">
-                                <a class="post" href="/article/archives/139761">
+                                <a class="post" href="#">
                                     <div class="title">
-                                        {{$randomRecord->title}}
+                                        {{$randomRecord6->title}}
                                     </div>
                                     <div class="post-meta">
                                         <span class="time-ago">
@@ -512,7 +512,7 @@
                                               class="timeago"
                                               datetime="March 30, 2023 19:18"
                                               title="March 30, 2023"
-                                          >{{$randomRecord->created_at}}</time>
+                                          >{{$randomRecord6->created_at}}</time>
                                         </span>
                                         <span class="post-view-count">
 
@@ -523,25 +523,25 @@
                             </div>
                         </div>
                     </div>
-                    @foreach($get4news as $get4new)
+                    @foreach($get4news6 as $get4new6)
                         <div class="col-xs-12">
                             <div class="row small-box post-item">
                                 <div class="col-md-4 col-sm-5 p-r-0">
-                                    <a class="post" href="/article/archives/139461">
+                                    <a class="post" href="#">
                                         <div class="image-wrapper">
                                             <img
                                                 class="image-scale-center"
                                                 style="height: 80px; object-fit: cover"
-                                                src="{{ asset('http://127.0.0.1:8081/storage/images/' . $get4new->photos) }}"
+                                                src="{{ asset('http://127.0.0.1:8081/storage/images/' . $get4new6->photos) }}"
                                                 alt="Untitled 1 recovered recovered recovered"
                                             />
                                         </div>
                                     </a>
                                 </div>
                                 <div class="col-md-8 col-sm-7">
-                                    <a class="post" href="/article/archives/139461">
+                                    <a class="post" href="#">
                                         <div class="title">
-                                            {{$get4new->title}}
+                                            {{$get4new6->title}}
                                         </div>
                                         <div class="post-meta">
                                         <span class="time-ago">
@@ -549,7 +549,7 @@
                                               class="timeago"
                                               datetime="January 08, 2023 15:39"
                                               title="January 08, 2023"
-                                          >{{$get4new->created_at}}</time>
+                                          >{{$get4new6->created_at}}</time>
                                         </span>
                                         <span class="post-view-count">
                                           1000 view
@@ -562,7 +562,7 @@
                         </div>
                     @endforeach
                 </div>
-                <a class="btn-more" href="/categories/local"><span>ទាំងអស់</span> </a>
+                <a class="btn-more" href="#"><span>ទាំងអស់</span> </a>
             </div>
         </div>
     </section>
