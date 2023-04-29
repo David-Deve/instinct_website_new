@@ -17,28 +17,11 @@
         href="style/styles.css"
         data-turbolinks-track="true"
     />
-    <script
-        src="js/java.js.css"
-        data-turbolinks-track="true"
-    ></script>
     <meta name="csrf-param" content="authenticity_token" />
     <meta
         name="csrf-token"
         content="87GQ/JqZtOGKhl9UVRApZamJKYcTm7my/yT4+/fG9rJ4QcGxhidAWkoBpoHUtE25B5fIrAg22U1g5sHqgpoHSQ=="
     />
-    <script
-        async=""
-        src="https://www.googletagmanager.com/gtag/js?id=UA-121784189-3"
-    ></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag() {
-            dataLayer.push(arguments);
-        }
-        gtag("js", new Date());
-
-        gtag("config", "UA-121784189-3");
-    </script>
 
     <title>Khmer News</title>
     <meta charset="utf-8" />
